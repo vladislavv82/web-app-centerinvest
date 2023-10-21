@@ -1,6 +1,6 @@
 package ru.bobry.centerinvest.dtos
 
-class InternshipDTO {
+class PracticeDTO {
     val title = ""
     val subtitle = ""
 }

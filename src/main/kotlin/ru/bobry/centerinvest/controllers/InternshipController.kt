@@ -9,7 +9,7 @@ import ru.bobry.centerinvest.services.InternshipService
 @CrossOrigin
 @RequestMapping("/api/internships")
 class InternshipController(private val internshipService: InternshipService) {
-    @GetMapping("/all")
+    @GetMapping()
     fun getAllInternships(): List<Internship> {
         return internshipService.getAllInternships()
     }

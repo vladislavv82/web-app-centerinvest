@@ -3,8 +3,8 @@ package ru.bobry.centerinvest.models
 import jakarta.persistence.*
 
 @Entity
-@Table(name = "internships")
-class Internship {
+@Table(name = "practice")
+class Practice {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     var id: Int = 0
